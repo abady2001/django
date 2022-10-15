@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Frutiger LT Arabic" !important;
+    src: url('/huda/static/css/fonts/FrutigerLTArabic.ttf') !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Frutiger LT Arabic", "Helvetica Neue LT Std", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
