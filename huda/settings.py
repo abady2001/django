@@ -85,11 +85,19 @@ WSGI_APPLICATION = "huda.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+<<<<<<< HEAD
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     }
+=======
+ DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "db.sqlite3",
+    }``
+>>>>>>> 56e7a4d454362892626fd43adb00847f1bd6fde3
 }
 
 # if DEVELOPMENT_MODE is True:
