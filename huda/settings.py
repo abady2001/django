@@ -85,20 +85,12 @@ WSGI_APPLICATION = "huda.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-<<<<<<< HEAD
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
     }
-=======
- DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }``
->>>>>>> 56e7a4d454362892626fd43adb00847f1bd6fde3
-}
+
 
 # if DEVELOPMENT_MODE is True:
 #     DATABASES = {
@@ -161,20 +153,20 @@ STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+# DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-LOGOUT_REDIRECT_URL = 'home'
+# LOGOUT_REDIRECT_URL = 'home'
 
 
-LOGIN_REDIRECT_URL = 'home'
-MEDIA_URL='/media/'
-MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
+# LOGIN_REDIRECT_URL = 'home'
+# MEDIA_URL='/media/'
+# MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
 
-RECAPTCHA_PUBLIC_KEY = '6Lcut_4hAAAAAK8KF3HJUUBAlG5X_GwrdHoYTF4A'
-RECAPTCHA_PRIVATE_KEY = '6Lcut_4hAAAAABh-bDL0w1EkuMvqs6tJTbPupEzV'
+# RECAPTCHA_PUBLIC_KEY = '6Lcut_4hAAAAAK8KF3HJUUBAlG5X_GwrdHoYTF4A'
+# RECAPTCHA_PRIVATE_KEY = '6Lcut_4hAAAAABh-bDL0w1EkuMvqs6tJTbPupEzV'
 
-RECAPTCHA_PROXY = {'http': 'http://127.0.0.1:8000',
-                   'https': 'https://127.0.0.1:8000'}
+# RECAPTCHA_PROXY = {'http': 'http://127.0.0.1:8000',
+#                    'https': 'https://127.0.0.1:8000'}
 
-RECAPTCHA_DOMAIN = 'www.recaptcha.net'
+# RECAPTCHA_DOMAIN = 'www.recaptcha.net'
 
