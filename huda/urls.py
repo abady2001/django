@@ -40,7 +40,7 @@ urlpatterns = [
     path('shows/', views.shows, name='shows'),
     path('confirm/', views.confirm, name='confirm'),
     path('logout/', auth_v.LogoutView.as_view(), name='logout'),
-    path('verification/', include('verify_email.urls')),
+
 ]
 
 if settings.DEBUG:
